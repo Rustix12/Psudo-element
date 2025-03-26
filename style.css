@@ -5,45 +5,38 @@ body{
 }
 
 h1{
-    color: rgb(0, 162, 255);
-}
-
-a{
-    color: rgb(78, 78, 216);
-    text-decoration: none;
-    font-size: 20px;  
-}
-
-a:hover{
-    color: rgb(0, 162, 255);
+    color: rgb(46, 183, 247);
 }
 
 h1::after{
-    content: " 🌐";
+    content: "⚽";
+}
+
+a:hover{
+    color: cyan;
 }
 
 li{
     list-style: none;
 }
 
-li::before{
-    content: "🚀 ";
-}
-
 li:first-child{
-    color: brown;
+    color: rgb(236, 93, 93);
 }
 
 li:last-child{
-    color: chocolate;
+    color: chartreuse;
 }
 
 li:nth-child(3){
-    color: rgb(255, 138, 138);
+    color: coral;
+}
+
+li::before{
+    content: "👟";
 }
 
 p::first-letter{
-    font-size: 30px;
-    color: rgb(221, 137, 77);
+    color: aqua;
+    font-size: 25px;
 }
-
